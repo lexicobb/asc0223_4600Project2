@@ -28,4 +28,4 @@ jobs:
       run: go build -v ./...
 
     - name: Test
-      run: go test main_test.go main.go
+      run: go test -cover main_test.go main.go
